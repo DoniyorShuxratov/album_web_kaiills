@@ -1,0 +1,41 @@
+.order__section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.order__section--container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.oreder__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    width: 50%;
+}
+
+.oreder__img > img {
+    width: 500px;
+    height: 500px;
+    border-radius: 56px;
+    object-fit: cover;
+}
+
+.oreder__context {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    width: 50%;
+}
+
+.oreder__context > img {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+

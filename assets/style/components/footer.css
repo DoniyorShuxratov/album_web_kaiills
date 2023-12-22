@@ -1,0 +1,53 @@
+.section__footer {
+    padding-bottom: 50px;
+}
+
+.section__footer--container {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+} 
+
+.footer__paragraph {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;    
+}
+
+.footer__paragraph > img {
+    max-width: 100px;
+}
+
+.footer__sm {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer__sm--email {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.footer__sm--sm > button {
+    background: none;
+}
+
+.footer__sm--sm {
+    display: flex;
+    gap: 25px;
+}

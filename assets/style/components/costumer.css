@@ -1,0 +1,94 @@
+.costumers__section {
+    padding: 50px 0;
+    height: 700px;
+}
+
+.costumers__section--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    height: 100%;
+}
+
+.costumers__left {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.costumers__carousel {
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    align-items: center;
+}
+
+.costumers__control {
+    z-index: 1;
+    padding: 50px;
+    background: var(--white);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    height: 100%;
+}
+
+
+.costumer__card {
+    width: 350px;
+    border-radius: 25px;
+    background: var(--white);
+    box-shadow: 0px 20px 60px 0px rgba(90, 90, 90, 0.15);
+}
+
+.costumer__title {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.costumer__title--rate > button {
+    background: none;
+    padding: 0;
+}
+
+.costumer__card--img > img {
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.costumer__card--content {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.costumers__carousel {
+    transition: transform 0.3s ease-in-out;
+}
+
+.costumers__control--rate {
+    display: flex;
+    gap: 50px;
+}
+
+.rate__statistic > span {
+    font-family: 'Jost';
+}
+
+.costumers__control--ctrl {
+    display: flex;
+    gap: 30px;
+} 
+
+.costumers__control--ctrl > button {
+    background: var(--white);
+    box-shadow: 0px 20px 60px 0px rgba(90, 90, 90, 0.15);
+    padding: 8px;
+    border-radius: 50px;
+}
